@@ -11,21 +11,25 @@ Criando um Widget de feedback. Aula da semana NLW Return - Trilha Impulse da Roc
 
 # Clone este repositório
 
-# Acesse a pasta do projeto
-web - frontend da aplicação
-server - backend da aplicação
+# Acesse as pastas do projeto
+/web
+/mobile
+/server
 
-# Instale as dependências:
+# Instale as dependências
 npm install
 
-# Execute aplicação:
+# Execute aplicação
 frontend e backend: npm run dev
+mobile: expo start
 
-# Executar testes do backend:
+# Executar testes do backend
 na pasta server, rodar npm run test
 
 ```
 #### 🛠 Tecnologias
 Frontend: [Vite](https://vitejs.dev/) + [React](https://pt-br.reactjs.org/) + [Tailwind](https://tailwindcss.com/)
 
-Backend: [NodeJs](https://nodejs.org/en/) + [Prisma](https://www.prisma.io/) + [Jest](https://jestjs.io/pt-BR/)
+Mobile: [React Native](https://reactnative.dev/) + [Expo](https://docs.expo.dev/get-started/installation/)
+
+Backend: [Node](https://nodejs.org/en/) + [Prisma](https://www.prisma.io/) + [Jest](https://jestjs.io/pt-BR/)
