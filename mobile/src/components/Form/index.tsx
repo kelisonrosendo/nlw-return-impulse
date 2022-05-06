@@ -61,7 +61,7 @@ export function Form({ feedbackType, onFeedbackCanceled, onFeedbackSent }: Props
       onFeedbackSent();
     } catch (error) {
       console.log(error);
-      setIsSendingFeedback(true);
+      setIsSendingFeedback(false);
     }
   }
 
